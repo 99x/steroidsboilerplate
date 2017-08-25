@@ -1,6 +1,6 @@
 {
-  "name": "steroidslibrary",
-  "version": "1.0.0",
+  "name": "steroidsboilerplate",
+  "version": "0.1.0",
   "main": "app.js",
   "dependencies": {
     "@types/mocha": "^2.2.41",
