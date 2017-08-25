@@ -1,0 +1,6 @@
+functions:
+  _:
+    events:
+      - http:
+          cors: true
+          integration: lambda-proxy

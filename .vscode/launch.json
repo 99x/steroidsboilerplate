@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "preLaunchTask": "compileAll",
+            "program": "${workspaceRoot}/app.js",
+            "sourceMaps": true,
+            "outFiles": ["${workspaceRoot}/**/*.js"],
+            "cwd": "${workspaceRoot}"
+        }
+    ]
+}

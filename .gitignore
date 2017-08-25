@@ -1,0 +1,14 @@
+# package directories
+node_modules
+jspm_packages
+package-lock.json
+
+# Serverless directories
+.serverless
+serverless.yml
+
+# compiled typescript files
+dist
+app.js
+app.js.map
+npm-debug.log

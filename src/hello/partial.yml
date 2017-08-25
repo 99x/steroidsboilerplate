@@ -1,0 +1,7 @@
+functions:
+  helloWorld:
+    handler: dist/handler.hello_HelloService
+    events:
+      - http:
+          path: hello/{name}
+          method: get 

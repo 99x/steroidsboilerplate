@@ -1,0 +1,7 @@
+service: boilerplate-api
+
+provider:
+  name: aws
+  stage: dev
+  region: eu-central-1
+  runtime: nodejs6.10

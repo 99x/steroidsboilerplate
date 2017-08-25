@@ -1,0 +1,16 @@
+{
+    "database": {
+        "type": "queryExecutor",
+        "settings": {
+            "url": "http://localhost:5050/query",
+            "authToken" : ""
+        }
+    },
+    "storage": {
+        "type": "documentDownloader",
+        "settings": {
+            "url": "http://localhost:5050/document",
+            "authToken" : ""
+        }
+    }
+}
