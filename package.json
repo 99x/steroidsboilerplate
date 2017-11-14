@@ -18,7 +18,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "node app.js",
-    "test": "mocha --recursive ./dist"
+    "test": "node app.js test"
   },
   "repository": {
     "type": "git",
