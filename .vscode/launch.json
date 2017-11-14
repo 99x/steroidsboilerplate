@@ -10,6 +10,17 @@
             "sourceMaps": true,
             "outFiles": ["${workspaceRoot}/**/*.js"],
             "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run Tests",
+            "preLaunchTask": "compileAll",
+            "program": "${workspaceRoot}/app.js",
+            "sourceMaps": true,
+            "outFiles": ["${workspaceRoot}/**/*.js"],
+            "cwd": "${workspaceRoot}",
+            "args":["test"]
         }
     ]
 }
