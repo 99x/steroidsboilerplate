@@ -1,6 +1,6 @@
 {
   "name": "steroidsboilerplate",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "app.js",
   "dependencies": {
     "gulp": "^3.9.1",
@@ -12,10 +12,10 @@
     "restify": "^4.3.0",
     "steroidslibrary": "latest",
     "steroidsruntime": "latest",
-    "typescript": "^2.3.4"
+    "typescript": "^2.3.4",
+    "assert":"^1.4.1"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "scripts": {
     "start": "node app.js",
     "test": "mocha --recursive ./dist"
