@@ -1,16 +1,21 @@
 {
     "database": {
-        "type": "queryExecutor",
+        "type": "sqlserver",
+        "connectionPerRequest": true,
         "settings": {
-            "url": "http://localhost:5050/query",
-            "authToken" : ""
+                "userName": "USERNAME",
+                "password": "PASSWORD",
+                "server": "IPADDRESS",
+                "options": {
+                    "database" :"DATABASE"
+                }
         }
     },
     "storage": {
         "type": "documentDownloader",
         "settings": {
-            "url": "http://localhost:5050/document",
-            "authToken" : ""
+            "url": "URL",
+            "authToken" : "AUTH TOKEN"
         }
     }
 }
