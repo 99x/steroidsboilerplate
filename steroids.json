@@ -1,21 +1,26 @@
 {
     "database": {
-        "type": "sqlserver",
-        "connectionPerRequest": true,
+        "type": "orm",
         "settings": {
-                "userName": "USERNAME",
-                "password": "PASSWORD",
-                "server": "IPADDRESS",
-                "options": {
-                    "database" :"DATABASE"
-                }
+            "driver":"mssql",
+            "host":"HOSTNAME",
+            "database":"DATABASE",
+            "username":"USERNAME",
+            "password":"PASSWORD",
+            "pool":{
+                "max": 5,
+                "min": 0,
+                "idle": 10000
+            }
         }
     },
     "storage": {
-        "type": "documentDownloader",
+        "type": "sftpdownloader",
         "settings": {
-            "url": "URL",
-            "authToken" : "AUTH TOKEN"
+            "host": "HOSTNAME",
+            "port": 22,
+            "user": "USERNAME",
+            "password": "PASSWORD"
         }
     }
 }

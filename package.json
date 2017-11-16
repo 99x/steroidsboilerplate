@@ -13,7 +13,9 @@
     "steroidslibrary": "latest",
     "steroidsruntime": "latest",
     "typescript": "^2.3.4",
-    "assert":"^1.4.1"
+    "assert":"^1.4.1",
+    "tedious": "^2.0.1",
+    "sequelize": "^4.22.7"
   },
   "devDependencies": {},
   "scripts": {
